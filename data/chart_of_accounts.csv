@@ -1,0 +1,17 @@
+Account Code,Account Name,Account Type
+1001,Cash,Asset
+1002,Bank,Asset
+1101,Accounts Receivable,Asset
+1201,Inventory,Asset
+1301,Office Equipment,Asset
+2001,Accounts Payable,Liability
+2101,Bank Loan,Liability
+3001,Capital,Equity
+4001,Sales Revenue,Revenue
+5001,Cost of Goods Sold,Expense
+6001,Rent Expense,Expense
+6002,Salary Expense,Expense
+6003,Electricity Expense,Expense
+6004,Office Expense,Expense
+6005,Transportation Expense,Expense
+6006,Marketing Expense,Expense
