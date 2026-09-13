@@ -1,0 +1,9 @@
+Date,Transaction ID,Description,Account Code,Account Name,Debit,Credit
+2025-04-01,JE001,Capital introduced,1002,Bank,500000,0
+2025-04-01,JE001,Capital introduced,3001,Capital,0,500000
+2025-04-03,JE002,Inventory purchased on credit,1201,Inventory,100000,0
+2025-04-03,JE002,Inventory purchased on credit,2001,Accounts Payable,0,100000
+2025-04-08,JE003,Credit sale to customer,1101,Accounts Receivable,75000,0
+2025-04-08,JE003,Credit sale to customer,4001,Sales Revenue,0,75000
+2025-04-15,JE004,Customer payment received,1002,Bank,40000,0
+2025-04-15,JE004,Customer payment received,1101,Accounts Receivable,0,40000
