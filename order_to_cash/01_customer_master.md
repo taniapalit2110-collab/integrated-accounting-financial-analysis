@@ -64,6 +64,13 @@ Important controls include:
 - Prevention of duplicate customer records
 
 ## Excel Skills Demonstrated
+This retrieves the customer name based on the Customer ID.
+
+Business Outcome
+
+A well-maintained Customer Master helps reduce billing errors, improves collection accuracy, and provides a reliable foundation for the downstream O2C process.
+
+Note: The customer information and financial values used in this portfolio are illustrative and created for demonstration purposes only.
 
 The accompanying Excel workbook uses lookup logic to connect customer IDs with customer names and other master-data attributes.
 
