@@ -58,7 +58,77 @@ The matching process can use:
 ### 3. Payment Application
 
 Once the payment is validated, it is applied against the outstanding invoice.
+Outstanding Balance Calculation
 
+The outstanding balance can be calculated as:
+
+=Invoice Amount - Amount Received
+
+This ensures that the Accounts Receivable balance is updated after each payment.
+
+Unapplied Cash
+
+Unapplied cash occurs when a customer payment has been received but cannot immediately be matched to a specific invoice.
+
+Common reasons include:
+
+Missing invoice reference
+Incorrect payment reference
+Unknown customer
+Multiple invoices with similar amounts
+Short or excess payment
+Customer account mismatch
+
+Unapplied cash should be investigated and cleared promptly.
+
+Accounting Impact
+
+When customer payment is received:
+
+Bank / Cash              Dr
+       Accounts Receivable      Cr
+
+This reduces the outstanding Accounts Receivable balance.
+
+Cash Application Controls
+
+Important controls include:
+
+Payment reference validation
+Customer identification
+Invoice matching
+Duplicate receipt checks
+Payment amount verification
+Unapplied cash monitoring
+Daily or periodic reconciliation
+Excel Reference
+
+The practical implementation is available in:
+
+order_to_cash.xlsx
+
+Relevant worksheets:
+
+Collection Register
+Invoice Register
+
+These worksheets demonstrate customer receipts, invoice matching, payment application, and outstanding balance tracking.
+
+Business Importance
+
+Effective cash application helps:
+
+Maintain accurate customer accounts
+Reduce unapplied cash
+Improve Accounts Receivable accuracy
+Support faster reconciliation
+Reduce collection disputes
+Improve visibility of customer payment status
+Portfolio Demonstration
+
+This section demonstrates the connection between customer receipts, invoice settlement, Accounts Receivable, and the overall O2C lifecycle.
+
+Note: The transactions and financial values used in this portfolio are illustrative and created for demonstration purposes only.
 Example:
 
 ```text
