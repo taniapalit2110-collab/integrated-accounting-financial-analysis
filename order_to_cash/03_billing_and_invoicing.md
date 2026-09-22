@@ -71,3 +71,84 @@ For example:
 
 ```text
 Invoice Date + Payment Terms = Due Date
+For a customer with 30-day payment terms:
+
+10-Jan-2026 + 30 Days = 09-Feb-2026
+4. Outstanding Balance
+
+The outstanding balance represents the amount still due from the customer.
+
+Formula:
+
+=Invoice Amount - Amount Received
+
+Example:
+
+=F6-G6
+
+For INV-002:
+
+₹60,000 - ₹40,000 = ₹20,000
+Invoice Status
+
+The model uses the following statuses:
+
+Paid
+Partially Paid
+Outstanding
+
+These statuses provide visibility into the current collection position.
+
+Accounting Impact
+
+When an invoice is generated, the typical accounting entry is:
+
+Accounts Receivable     Dr
+       Revenue                 Cr
+
+When the customer makes payment:
+
+Bank / Cash              Dr
+       Accounts Receivable      Cr
+
+This creates a clear accounting flow from billing through cash collection.
+
+O2C Controls
+
+Key billing controls include:
+
+Unique invoice numbers
+Sales-order-to-invoice linkage
+Pricing validation
+Duplicate invoice checks
+Due-date validation
+Invoice amount verification
+Customer master validation
+Outstanding balance reconciliation
+Excel Reference
+
+The practical implementation of this process is available in:
+
+order_to_cash.xlsx
+
+Relevant worksheet:
+
+Invoice Register
+
+The workbook demonstrates invoice tracking, payment application, outstanding balance calculation, and invoice-status monitoring.
+
+Business Importance
+
+Accurate billing helps:
+
+Reduce invoice disputes
+Prevent revenue leakage
+Improve cash collection
+Maintain accurate Accounts Receivable
+Support timely month-end reporting
+Improve customer experience
+Portfolio Demonstration
+
+This section demonstrates practical understanding of the transition from sales order processing to billing and Accounts Receivable management.
+
+Note: The transactions and financial values used in this portfolio are illustrative and created for demonstration purposes only.
