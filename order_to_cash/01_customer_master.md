@@ -22,7 +22,7 @@ It contains the key information required to identify customers, determine paymen
 A unique identifier assigned to each customer.
 
 ### Customer Name
-The legal or business name used for customer identification and billing.
+The legal or business name used to identify and bill the customer.
 
 ### Customer Type
 Classifies customers, such as:
@@ -63,14 +63,8 @@ Important controls include:
 - Customer master review
 - Prevention of duplicate customer records
 
+
 ## Excel Skills Demonstrated
-This retrieves the customer name based on the Customer ID.
-
-Business Outcome
-
-A well-maintained Customer Master helps reduce billing errors, improves collection accuracy, and provides a reliable foundation for the downstream O2C process.
-
-Note: The customer information and financial values used in this portfolio are illustrative and created for demonstration purposes only.
 
 The accompanying Excel workbook uses lookup logic to connect customer IDs with customer names and other master-data attributes.
 
@@ -78,3 +72,10 @@ Example:
 
 ```excel
 =INDEX('Customer Master'!B2:B6,MATCH(C2,'Customer Master'!A2:A6,0))
+This retrieves the customer name based on the Customer ID.
+
+Business Outcome
+
+A well-maintained Customer Master helps reduce billing errors, improves collection accuracy, and provides a reliable foundation for the downstream O2C process.
+
+Note: The customer information and financial values used in this portfolio are illustrative and created for demonstration purposes only.
