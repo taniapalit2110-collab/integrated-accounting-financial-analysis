@@ -56,3 +56,54 @@ The order value can be calculated using:
 
 ```excel
 Quantity × Unit Price
+Example:
+
+=E6*F6
+
+For SO-001:
+
+10 × ₹2,500 = ₹25,000
+Customer Lookup
+
+Customer information can be retrieved from the Customer Master using a lookup formula.
+
+Example:
+
+=INDEX('Customer Master'!B2:B6,MATCH(C6,'Customer Master'!A2:A6,0))
+
+This retrieves the customer name based on the Customer ID.
+
+Order Status Monitoring
+
+The model uses order statuses such as:
+
+Invoiced
+Partially Paid
+Outstanding
+
+Monitoring these statuses helps identify orders requiring downstream billing or collection action.
+
+O2C Controls
+
+Key controls include:
+
+Unique sales order numbers
+Customer validation
+Price and quantity validation
+Order-value verification
+Sales-order-to-invoice linkage
+Order status monitoring
+Business Importance
+
+Accurate sales order management helps ensure:
+
+Correct billing
+Reduced invoice disputes
+Better revenue tracking
+Complete transaction traceability
+Faster downstream collections
+Portfolio Demonstration
+
+This section demonstrates practical understanding of how sales orders flow into billing and ultimately into Accounts Receivable and collections.
+
+Note: The transactions and financial values used in this portfolio are illustrative and created for demonstration purposes only.
